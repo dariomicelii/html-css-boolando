@@ -1,0 +1,126 @@
+/* # RESET */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  img{
+    max-width: 100%;
+  }
+
+  body{
+    font-family: sans-serif;
+  }
+  
+  /* # UTILS */
+  
+  .container {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 1000px;
+    max-width: 100%;
+  }
+
+
+  /* MAIN */
+
+  .card-cont{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 100px;
+  }
+
+  .products > .container{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 1rem 0;
+  }
+
+  .product-card{
+    min-height: 500px;
+    width: 400px;
+    position: relative;
+  }
+
+  h2{
+    display: inline-block;
+    font-size: 20px;
+    color: red;
+  }
+
+  .original-price{
+    color: black;
+    text-decoration: line-through;
+  }
+
+  img{
+    max-width: 100%;
+
+  }
+
+  .product-card .discount{
+    position: absolute;
+    left: 0px;
+    bottom: 50px;
+    background-color: red;
+    padding: 5px 10px;
+    color: white;
+  }
+
+  .product-card .sost{
+    position: absolute;
+    left: 60px;
+    bottom: 50px;
+    background-color: green;
+    padding: 5px 10px;
+    color: white;
+  }
+
+  .sost-unique{
+    position: absolute;
+    left: 0px;
+    bottom: 50px;
+    background-color: green;
+    padding: 5px 10px;
+    color: white;
+  }
+
+  .product-card .heart{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    background-color: white;
+    padding: 5px 10px;
+    color: black;
+    font-size: 30px;
+  }
+
+  .product-card .heart:hover{
+    color: red;
+  }
+
+  .sec-img{
+    display: none;
+  }
+
+
+  .product-card:hover img{
+    display: none;
+  }
+
+  .product-card:hover .sec-img{
+    display: block;
+  }
+
+
+
+
