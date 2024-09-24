@@ -24,6 +24,17 @@
   }
 
 
+  /* HEADER */
+
+  .header{
+    background-color: orange;
+    min-height: 100px;
+  }
+
+  .header .container{
+    display: flex;
+  }
+
   /* MAIN */
 
   .card-cont{
